@@ -19,7 +19,7 @@ Supported Languages:
 
 ---
 USAGE:
-> ./count.sh <file_path>
+> ./pcount.sh <file_path>
 
 OR:
 > python linecount.py <file_path>
@@ -29,10 +29,11 @@ The application also supports counting multiple files. Doing so sums up the tota
 
 
 USAGE:
-> ./count.sh <file_path1> <file_path2>
+> ./pcount.sh <file_path1> <file_path2>
 
 OR:
 > python linecount.py <file_path1> <file_path2>
+
 ---
 # TODO
 
