@@ -11,6 +11,7 @@ This was just a fun little project I decided to work on as an exercise to both l
 - [Usage](#usage)
 
 ## License
+
 LineCounter is released under the [MIT License](https://github.com/Utecha/LineCounter/blob/python/LICENSE)
 
 ## Supported Languages
@@ -54,8 +55,12 @@ If your language does not appear on that list, it still may be supported. Any la
 That covers most languages, however if I am missing any commenting styles used by your language, you can request it be added.
 
 ## Install
+
 To install, open a terminal and enter this:
-> git clone -b python https://github.com/Utecha/LineCounter.git
+
+```
+git clone -b python https://github.com/Utecha/LineCounter.git
+```
 
 If you want the Lua or Rust variants of the program, replace 'python' with 'lua' or 'rust'
 
@@ -67,35 +72,59 @@ On Windows, you're basically stuck with option 1 unless you use Windows Subsyste
 
 ##### Option 1
 SINGLE FILE:
-> python linecount.py <file_path>
+
+```
+python linecount.py <file_path>
+```
 
 MULTIPLE FILES:
-> python linecount.py <file_path1> <file_path2>
+
+```
+python linecount.py <file_path1> <file_path2>
+```
 
 NOTE: Debian/Ubuntu based systems and some other Linux distros should use 'python3' rather than 'python', by default.
 
 ##### Option 2
 By default, the script should be executable. However, if it isn't, enter this in your terminal (assuming you're in the same directory as the script):
-> chmod +x linecount.py
+
+```
+chmod +x linecount.py
+```
 
 Then, you may run the program as such:
 
 SINGLE FILE:
-> ./linecount.py <file_path>
+
+```
+./linecount.py <file_path>
+```
 
 MULTIPLE FILES:
-> ./linecount.py <file_path1> <file_path2>
+
+```
+./linecount.py <file_path1> <file_path2>
+```
 
 ##### Option 3
 In your .bashrc or .zshrc file, add:
-> export PATH="$PATH:Path/To/LineCounter"
-> 
-> alias count="linecount.py"
+
+```
+export PATH="$PATH:Path/To/LineCounter"
+ 
+alias count="linecount.py"
+```
 
 Save and exit, then in your terminal, source the .bashrc or .zshrc file, and now you can run the program like this:
 
 SINGLE FILE:
-> count <file_path>
+
+```
+count <file_path>
+```
 
 MULTIPLE FILES:
-> count <file_path1> <file_path2>
+
+```
+count <file_path1> <file_path2>
+```
