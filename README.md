@@ -39,7 +39,7 @@ LineCounter is released under the [MIT License](https://github.com/Utecha/LineCo
 If your language does not appear on that list, it still may be supported. Any language with these single/multi-line comment types are supported:
 
 #### Single Line
-- #
+- "#" (in quotes cause markdown)
 - //
 - "--" (in quotes cause markdown)
 
