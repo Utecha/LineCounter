@@ -1,6 +1,7 @@
 # LineCounter - Python Edition
 
-#### NOTE: This is the main branch of this repo. Other branches include Lua and Rust variants of this program. I may add others later.
+#### NOTE: This is the main branch of this repo. 
+#### Other branches include Lua and Rust variants of this program. I may add others later.
 
 This was just a fun little project I decided to work on as an exercise to both learn more about programming in various languages, but also to have a fun little way of tracking how many lines of code I am ultimately writing for various projects. It works to track how efficient you are becoming as a programmer. Meaning, you are able to accomplish the same tasks in less lines of code, though hopefully while maintaining readability, of course!
 
@@ -88,6 +89,7 @@ MULTIPLE FILES:
 ##### Option 3
 In your .bashrc or .zshrc file, add:
 > export PATH="$PATH:Path/To/LineCounter"
+> 
 > alias count="linecount.py"
 
 Save and exit, then in your terminal, source the .bashrc or .zshrc file, and now you can run the program like this:
