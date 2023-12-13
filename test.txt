@@ -1,0 +1,50 @@
+# Comment One
+# Comment Two
+"""
+Multiline One
+"""
+"""
+Multiline Two
+"""
+-- Lua style single line comment
+// Basically most languages form
+// Of single line comment
+
+
+
+# One Final Comment
+'''
+One Final Multiline
+This time with single quotes
+And multiple interior lines
+'''
+
+/*
+I lied, this is one more
+in order to test this style
+of multiline
+*/
+
+/*
+ * I'm also doing it again
+ * because usually it looks
+ * like this
+ */
+
+# Matlab Support
+%{
+Matlabs version of a
+multiline comment.
+This is awful!
+%}
+
+# Bash/Zsh support as well!
+:'
+This is a bash/zsh multiline comment
+'
+
+# To test Ruby multiline comments
+=begin
+Some text
+Some more text
+=end
